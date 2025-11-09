@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import SignUpEmailScreen from './screens/SignUp_1';
+import SignUpEmail from './src/screens/SignUp_Email';
 
 export default function App() {
-  return <SignUpEmailScreen />;
+  return <SignUpEmail />;
 }
 
 const styles = StyleSheet.create({
