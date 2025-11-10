@@ -121,7 +121,7 @@ export default function HomeScreen(){
       Alert.alert(dateString, 'Todo', [
         {
           text: '취소',
-          styles: 'cancel'
+          style: 'cancel'
         },
         {
           text: '저장',
