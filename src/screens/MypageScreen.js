@@ -5,8 +5,8 @@ export default function SignUpEmail({ navigation }) {
   const [email, setEmail] = useState('');
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>회원가입</Text>
+    <View style={styles.container}> 
+      <Text style={styles.title}>Mypage</Text>
 
       <View style={styles.inputContainer}>
         <Text style={styles.label}>이메일 입력</Text>
@@ -27,7 +27,7 @@ export default function SignUpEmail({ navigation }) {
         onPress={() => {
           // 이메일 유효성 검사 추가 가능
           // 다음 화면으로 이동 등
-          navigation.replace('Main', { email });
+          navigation.navigate('NextScreen', { email });
         }}
       >
         <Text style={styles.buttonText}>계속</Text>
